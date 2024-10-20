@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "proj-video-uploader"
+version = "0.1.0"
+description = ""
+authors = ["jaehyeok.choi <franics_bacon@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "*"
+numpy = "*"
+slack-sdk = "*"
+pandas-gbq = "*"
+python-dotenv = "*"
+tqdm = "*"
+requests = "*"
+matplotlib = "*"
+seaborn = "*"
+ipykernel = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
