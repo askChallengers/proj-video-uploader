@@ -9,6 +9,7 @@ PROJ_ID = os.getenv("PROJ_ID")
 EXECUTE_ENV = os.getenv("EXECUTE_ENV")
 GOOGLE_SHEET_URL = os.getenv("GOOGLE_SHEET_URL")
 GOOGLE_SERVICE_ACCOUNT_PATH = os.getenv("GOOGLE_SERVICE_ACCOUNT_PATH", '')
+OAUTH_CLIENT_SECRETS_FILE = os.getenv("OAUTH_CLIENT_SECRETS_FILE", '')
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN", '')
 SLACK_CHANNEL_ID = os.getenv("SLACK_CHANNEL_ID", '')
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent 

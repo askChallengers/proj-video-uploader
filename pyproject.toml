@@ -17,6 +17,9 @@ requests = "*"
 matplotlib = "*"
 seaborn = "*"
 ipykernel = "*"
+google-api-python-client = "*"
+oauth2client = "*"
+gspread = "*"
 
 
 [build-system]
